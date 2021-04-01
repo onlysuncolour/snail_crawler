@@ -1,2 +1,5 @@
 front/node_modules/
 server/node_modules/
+.vscode/
+front/yarn-error.log
+server/yarn-error.log
