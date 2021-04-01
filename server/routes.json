@@ -1,0 +1,66 @@
+[
+    {
+        "name": "/api/valuable/getValuableList",
+        "path": "../controller/get-valuable-list",
+        "method": "GET",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    },
+    {
+        "name": "/api/valuable/getValuables",
+        "path": "../controller/get-valuables",
+        "method": "GET",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    },
+    {
+        "name": "/api/valuable/getValuable",
+        "path": "../controller/get-valuable",
+        "method": "GET",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    },
+    {
+        "name": "/api/valuable/getCrawlerValuableList",
+        "path": "../controller/get-crawler-valuable-list",
+        "method": "GET",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    },
+    {
+        "name": "/api/valuable/getCrawlerValuables",
+        "path": "../controller/get-crawler-valuables",
+        "method": "GET",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    },
+    {
+        "name": "/api/valuable/saveValuableList",
+        "path": "../controller/save-valuable-list",
+        "method": "POST",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    },
+    {
+        "name": "/api/valuable/saveValuable",
+        "path": "../controller/save-valuable",
+        "method": "POST",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    },
+    {
+        "name": "/api/valuable/saveValuables",
+        "path": "../controller/save-valuables",
+        "method": "POST",
+        "middlewares": [
+            "../middlewares/test1"
+        ]
+    }
+]

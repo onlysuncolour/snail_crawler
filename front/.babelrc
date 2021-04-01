@@ -1,0 +1,17 @@
+{
+  "presets": ["@babel/preset-react"],
+  "plugins": [[
+    "add-module-exports",
+    {
+      "addDefaultProperty": true
+    }
+  ]],
+  "env": {
+    "development": {
+      "presets": [
+        ["@babel/preset-react", 
+          { "development": true }]
+      ]
+    }
+  }
+}
